@@ -1,0 +1,241 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 110%;
+  align-items: center;
+}
+
+/* background */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#bgVideo {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  flex: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 5px 20x;
+  height: 50px;
+  justify-content: space-between;
+}
+.navigation {
+  flex-shrink: 0;
+  margin-left: 50px;
+}
+
+.navigation nav {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navigation a:hover {
+  color: violet;
+}
+
+nav a {
+  text-decoration: none;
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  font: inherit;
+  font-size: 1.6rem;
+  cursor: pointer;
+  outline: inherit;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px pink;
+}
+
+a:hover {
+  filter: brightness(120%);
+  box-shadow: 10px 10px 10px rebeccapurple;
+}
+
+a:active {
+  box-shadow: inset 2px 2px 10px #000;
+}
+
+#pic {
+  width: 100px;
+}
+
+#about {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column-2 {
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: 270px;
+  margin: 30px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  background-color: pink;
+  line-height: 2;
+  border: 0.2px solid pink;
+  border-radius: 10px;
+}
+.large-profile {
+  background: url("prof.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.skill {
+  margin-top: 30px;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.skill span {
+  float: right;
+}
+
+.skill div {
+  width: 100%;
+  float: left;
+  margin-top: 5px;
+  background: #e7e7e7;
+  border-radius: 10px;
+}
+
+.skill div span {
+  background: violet;
+  height: 5px;
+  float: left;
+}
+
+/* project */
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  flex: 0 0 calc(68% - 10px);
+  margin: 10px;
+  display: flex;
+  background-color: pink;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: 0.2px solid pink;
+  border-radius: 10px;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.project-description {
+  padding: 20px;
+}
+
+.project:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+header {
+  background-image: url("bg.jpg");
+  background-size: contain;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  display: block;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}

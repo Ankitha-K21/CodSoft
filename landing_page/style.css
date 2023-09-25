@@ -1,0 +1,151 @@
+html {
+  scroll-behavior: auto;
+}
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img {
+  width: 300px;
+  height: 150px;
+}
+
+.main {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+header {
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #f0190a;
+}
+
+.tag {
+  background-color: rgba(100, 93, 93, 0.5);
+  padding: 20px;
+}
+
+.tag h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#bgVideo {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.interns {
+  padding: 40px 0;
+}
+.con {
+  display: block;
+  width: 75%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intern {
+  background-color: rgb(64, 60, 60, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.intern img {
+  max-width: 100%;
+  height: auto;
+}
+
+.intern h3 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.intern p {
+  font-size: 16px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.cta-button:hover {
+  background-color: olivedrab;
+}
+
+footer {
+  background-color: rgb(55, 39, 39);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#about-div {
+  margin: 20px;
+  padding: 10px;
+
+  font-size: larger;
+}
